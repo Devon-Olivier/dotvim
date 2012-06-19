@@ -1,3 +1,7 @@
+For syncing vim plugins and settings. Uses pathogen.vim and git.
+see: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+for tutorial.
+
 Installation:
 	clone this git repository into ~/.vim
 	create symlinks:

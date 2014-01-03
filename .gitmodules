@@ -17,3 +17,6 @@
 [submodule "bundle/vim-sensible"]
 	path = bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "bundle/jshint2"]
+	path = bundle/jshint2
+	url = https://github.com/Shutnik/jshint2.vim.git

@@ -11,3 +11,5 @@ Installation:
   git submodule init
   git submodule update
 
+see http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/
+for a way to install, update and remove submodules.

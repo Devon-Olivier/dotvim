@@ -2,6 +2,7 @@ set nocompatible  " be iMproved, required
 filetype plugin indent on
 syntax on
 
+
 set hidden
 set incsearch
 set number
@@ -12,6 +13,16 @@ set vb t_vb=
 packadd minpac
 call minpac#init()
 call minpac#add('k-takata/minpac', {'type': 'opt'})
+
+" Settings for solarized color scheme
+" altercation plugins
+" call minpac#add('altercation/vim-colors-solarized')
+" set background=dark
+" colorscheme solarized
+
+call minpac#add('vim-airline/vim-airline-themes')
+let g:airline_theme='solarized'
+let g:airline_solarized_bg='dark'
 
 " tpope plugins
 call minpac#add('tpope/vim-fugitive')
@@ -57,7 +68,6 @@ call minpac#add('othree/html5.vim')
 call minpac#add('briancollins/vim-jst')
 call minpac#add('leafgarland/typescript-vim')
 call minpac#add('pangloss/vim-javascript')
-call minpac#add('vim-scripts/jade.vim')
 call minpac#add('majutsushi/tagbar')
 call minpac#add('nathanaelkane/vim-indent-guides')
 

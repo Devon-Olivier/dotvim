@@ -30,9 +30,6 @@ call minpac#add('tpope/vim-surround')
 call minpac#add('tpope/vim-repeat')
 call minpac#add('tpope/vim-unimpaired')
 
-" jaxbot plugins
-call minpac#add('jaxbot/browserlink.vim')
-
 " Shougo plugins
 " call minpac#add('Shougo/vimproc.vim')
 " call minpac#add('Shougo/vimshell.vim')
